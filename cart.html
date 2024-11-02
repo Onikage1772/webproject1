@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="index.html" class="logo">Store <span>.</span></a>
+        <nav class="navbar">
+            <a href="index.html #home">home</a>
+            <a href="index.html #about">about</a>
+            <a href="index.html #products">products</a>
+            <a href="index.html #contact">contact</a>
+        </nav>
+        <nav class="icons">
+            <a href="#" class="fas fa-cart-shopping"></a>
+        </nav>
+    </header>
+
+    <section class="cart container mt-5 my-3 py-5">
+        <div class="container mt-5">
+          <h2 class="font-weight-bold">Your Cart</h2>
+          <hr>
+        </div>
+      
+        <table class="mt-5 pt-5">
+          
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+            </tr>
+          
+          
+            <tr>
+              <td>
+                <div class="product-info">
+                  <img src="./assets/images/table.jpg" alt="Product Image">
+                  <div>
+                    <p>Table</p>
+                    <small><span>$</span>199</small>
+                    <br>
+                    <button class="remove-btn">Remove</button>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <form>
+                  <input type="number" value="1">
+                  <input type="submit" class="edit-btn" value="Edit">
+                </form>
+              </td>
+              <td class="product-price">$199</td>
+            </tr>
+         
+        </table>
+        <div class="cart-total">
+            <table>
+                <tr>
+                    <td>Total</td>
+                    <td>$199</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="checkout-container">
+            <form action="checkout.html" method="get">
+                <input type="submit" class="btn checkout-btn" value="Checkout">
+            </form>
+            
+        </div>
+      </section>
+</body>
+<!-- Footer -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html #home">home</a>
+            <a href="index.html #about">about</a>
+            <a href="index.html #icons">features</a>
+            <a href="index.html #products">products</a>
+            <a href="index.html #contact">contact</a>
+            <a href="index.html #review">reviews</a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="index.html #home">cart</a>
+            <a href="index.html #products">products</a>
+            <a href="index.html #products">special offers</a>
+        </div>
+
+        <div class="box">
+            <h3>Locations</h3>
+            <p>Australia</p>
+            <p>US</p>
+            <p>Germany</p>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p>+123 456 7890</p>
+            <p>info@email.com</p>
+        </div>
+    </div>
+
+    <div class="creator">created by <span>MrTeacherLong</span> | all rights reserved</div>
+</section>
