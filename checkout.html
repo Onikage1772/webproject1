@@ -122,5 +122,13 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+    <script>
+            // JavaScript for form submission
+            document.getElementById("checkout-form").addEventListener("submit", function(event) {
+                event.preventDefault(); // Ngăn chặn việc submit form thông thường
+                alert("Ordered successfully"); // Hiển thị thông báo
+                window.location.href = "index.html"; // Chuyển hướng về trang chủ
+            });
+        </script>
     </body>
 </html>
